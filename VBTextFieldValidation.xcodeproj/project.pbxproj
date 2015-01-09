@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		578113CF1A5A413700E1112D /* VBTextFieldValidation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 578113CE1A5A413700E1112D /* VBTextFieldValidation.h */; };
+		578113D11A5A413700E1112D /* VBTextFieldValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 578113D01A5A413700E1112D /* VBTextFieldValidation.m */; };
+		578113D71A5A413700E1112D /* libVBTextFieldValidation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578113CB1A5A413700E1112D /* libVBTextFieldValidation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		578113D81A5A413700E1112D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 578113C31A5A413700E1112D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578113CA1A5A413700E1112D;
+			remoteInfo = VBTextFieldValidation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		578113C91A5A413700E1112D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				578113CF1A5A413700E1112D /* VBTextFieldValidation.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		578113CB1A5A413700E1112D /* libVBTextFieldValidation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVBTextFieldValidation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		578113CE1A5A413700E1112D /* VBTextFieldValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBTextFieldValidation.h; sourceTree = "<group>"; };
+		578113D01A5A413700E1112D /* VBTextFieldValidation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBTextFieldValidation.m; sourceTree = "<group>"; };
+		578113D61A5A413700E1112D /* VBTextFieldValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBTextFieldValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		578113DC1A5A413700E1112D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578113C81A5A413700E1112D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578113D31A5A413700E1112D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578113D71A5A413700E1112D /* libVBTextFieldValidation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578113C21A5A413700E1112D = {
+			isa = PBXGroup;
+			children = (
+				578113CD1A5A413700E1112D /* VBTextFieldValidation */,
+				578113DA1A5A413700E1112D /* VBTextFieldValidationTests */,
+				578113CC1A5A413700E1112D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		578113CC1A5A413700E1112D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578113CB1A5A413700E1112D /* libVBTextFieldValidation.a */,
+				578113D61A5A413700E1112D /* VBTextFieldValidationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578113CD1A5A413700E1112D /* VBTextFieldValidation */ = {
+			isa = PBXGroup;
+			children = (
+				578113CE1A5A413700E1112D /* VBTextFieldValidation.h */,
+				578113D01A5A413700E1112D /* VBTextFieldValidation.m */,
+			);
+			path = VBTextFieldValidation;
+			sourceTree = "<group>";
+		};
+		578113DA1A5A413700E1112D /* VBTextFieldValidationTests */ = {
+			isa = PBXGroup;
+			children = (
+				578113DB1A5A413700E1112D /* Supporting Files */,
+			);
+			path = VBTextFieldValidationTests;
+			sourceTree = "<group>";
+		};
+		578113DB1A5A413700E1112D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				578113DC1A5A413700E1112D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578113CA1A5A413700E1112D /* VBTextFieldValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578113DF1A5A413700E1112D /* Build configuration list for PBXNativeTarget "VBTextFieldValidation" */;
+			buildPhases = (
+				578113C71A5A413700E1112D /* Sources */,
+				578113C81A5A413700E1112D /* Frameworks */,
+				578113C91A5A413700E1112D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VBTextFieldValidation;
+			productName = VBTextFieldValidation;
+			productReference = 578113CB1A5A413700E1112D /* libVBTextFieldValidation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		578113D51A5A413700E1112D /* VBTextFieldValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578113E21A5A413700E1112D /* Build configuration list for PBXNativeTarget "VBTextFieldValidationTests" */;
+			buildPhases = (
+				578113D21A5A413700E1112D /* Sources */,
+				578113D31A5A413700E1112D /* Frameworks */,
+				578113D41A5A413700E1112D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578113D91A5A413700E1112D /* PBXTargetDependency */,
+			);
+			name = VBTextFieldValidationTests;
+			productName = VBTextFieldValidationTests;
+			productReference = 578113D61A5A413700E1112D /* VBTextFieldValidationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		578113C31A5A413700E1112D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Varatep Buranintu";
+				TargetAttributes = {
+					578113CA1A5A413700E1112D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					578113D51A5A413700E1112D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 578113C61A5A413700E1112D /* Build configuration list for PBXProject "VBTextFieldValidation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 578113C21A5A413700E1112D;
+			productRefGroup = 578113CC1A5A413700E1112D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578113CA1A5A413700E1112D /* VBTextFieldValidation */,
+				578113D51A5A413700E1112D /* VBTextFieldValidationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578113D41A5A413700E1112D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578113C71A5A413700E1112D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578113D11A5A413700E1112D /* VBTextFieldValidation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578113D21A5A413700E1112D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		578113D91A5A413700E1112D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 578113CA1A5A413700E1112D /* VBTextFieldValidation */;
+			targetProxy = 578113D81A5A413700E1112D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		578113DD1A5A413700E1112D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		578113DE1A5A413700E1112D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		578113E01A5A413700E1112D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		578113E11A5A413700E1112D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		578113E31A5A413700E1112D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VBTextFieldValidationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		578113E41A5A413700E1112D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VBTextFieldValidationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		578113C61A5A413700E1112D /* Build configuration list for PBXProject "VBTextFieldValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578113DD1A5A413700E1112D /* Debug */,
+				578113DE1A5A413700E1112D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578113DF1A5A413700E1112D /* Build configuration list for PBXNativeTarget "VBTextFieldValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578113E01A5A413700E1112D /* Debug */,
+				578113E11A5A413700E1112D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		578113E21A5A413700E1112D /* Build configuration list for PBXNativeTarget "VBTextFieldValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578113E31A5A413700E1112D /* Debug */,
+				578113E41A5A413700E1112D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 578113C31A5A413700E1112D /* Project object */;
+}
